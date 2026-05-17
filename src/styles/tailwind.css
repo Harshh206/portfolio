@@ -1,4 +1,5 @@
-@import 'tailwindcss' source(none);
-@source '../**/*.{js,ts,jsx,tsx}';
+@import 'tailwindcss';
+
+/* content paths should be configured in tailwind.config.js, not here */
 
 @import 'tw-animate-css';

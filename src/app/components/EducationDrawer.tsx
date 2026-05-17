@@ -28,9 +28,14 @@ export function EducationDrawer({ open, onOpenChange }: EducationDrawerProps) {
                 Education
               </h3>
               <div className="bg-slate-50 p-6 rounded-lg border border-slate-200">
-                <h4 className="mb-2">Bachelor of Technology in Computer Science</h4>
-                <p className="text-slate-600 mb-2">XYZ University • 2020 - 2024</p>
-                <p className="text-slate-600 mb-3">CGPA: 8.5/10</p>
+                <h4 className="mb-2">
+                  Bachelor of Technology in Computer Science
+                </h4>
+                <p className="text-slate-600 mb-2">
+                  Chhattisgarh Swami Vivekanand Technical University • 2021 -
+                  2025
+                </p>
+                <p className="text-slate-600 mb-3">CGPA: 7.1/10</p>
                 <div className="mb-3">
                   <p className="font-semibold mb-2">Relevant Coursework:</p>
                   <ul className="grid md:grid-cols-2 gap-2 text-slate-600">
@@ -77,7 +82,9 @@ export function EducationDrawer({ open, onOpenChange }: EducationDrawerProps) {
                   </span>
                 </div>
                 <div className="bg-slate-50 p-4 rounded-lg border border-slate-200">
-                  <h4 className="mb-1">JavaScript Algorithms and Data Structures</h4>
+                  <h4 className="mb-1">
+                    JavaScript Algorithms and Data Structures
+                  </h4>
                   <p className="text-slate-600 mb-2">freeCodeCamp • 2023</p>
                   <span className="inline-block px-2 py-1 bg-green-100 text-green-700 rounded text-sm">
                     Completed
@@ -92,7 +99,9 @@ export function EducationDrawer({ open, onOpenChange }: EducationDrawerProps) {
                 </div>
                 <div className="bg-slate-50 p-4 rounded-lg border border-slate-200">
                   <h4 className="mb-1">Git & GitHub Essentials</h4>
-                  <p className="text-slate-600 mb-2">LinkedIn Learning • 2023</p>
+                  <p className="text-slate-600 mb-2">
+                    LinkedIn Learning • 2023
+                  </p>
                   <span className="inline-block px-2 py-1 bg-green-100 text-green-700 rounded text-sm">
                     Completed
                   </span>
