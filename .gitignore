@@ -1,3 +1,5 @@
+guidelines/
+
 # Node
 node_modules/
 npm-debug.log
@@ -46,3 +48,4 @@ Thumbs.db
 .env
 .env.local
 .env.*.local
+
