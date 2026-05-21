@@ -7,18 +7,18 @@ interface AboutProps {
 
 export function About({ onOpenEducation }: AboutProps) {
   return (
-    <section id="about" className="py-20 bg-white">
+    <section id="about" className="py-16 bg-white">
       <div className="max-w-6xl mx-auto px-6">
-        <h2 className="mb-12 text-center">About Me</h2>
-        <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div>
+        <h2 className="mb-12 text-center text-4xl font-bold">About Me</h2>
+        <div className="grid md:grid-cols-5 gap-10 items-center">
+          <div className="flex justify-center md:col-span-2">
             <ImageWithFallback
-              src="https://images.unsplash.com/photo-1686213011418-e0caa4aef2c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1bml2ZXJzaXR5JTIwZ3JhZHVhdGlvbiUyMHN0dWRlbnR8ZW58MXx8fHwxNzY1OTgyNTM4fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              src="src\assets\man-8626637_1280.png"
               alt="Profile"
               className="rounded-lg shadow-lg w-full h-auto"
             />
           </div>
-          <div>
+          <div className="text-center md:text-left mx-8 md:col-span-3">
             <p className="mb-4 text-slate-600 tracking-wide leading-relaxed">
               I’m a Computer Science Engineering graduate specializing in
               Artificial Intelligence, passionate about building AI-driven
