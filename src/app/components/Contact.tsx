@@ -4,7 +4,7 @@ export function Contact() {
   return (
     <section id="contact" className="py-20 bg-slate-900 text-white">
       <div className="max-w-4xl mx-auto px-6 text-center">
-        <h2 className="mb-4">Let's Connect</h2>
+        <h2 className="mb-8 text-center text-2xl font-bold">Let's Connect</h2>
         <p className="mb-8 text-slate-400 max-w-2xl mx-auto">
           I'm actively looking for entry-level opportunities where I can
           contribute and grow as a developer. Feel free to reach out if you'd
@@ -34,7 +34,7 @@ export function Contact() {
             <Github className="w-6 h-6" />
           </a>
           <a
-            href="https://www.linkedin.com/in/harsh-patel206/"
+            href="https://www.linkedin.com/in/harshp04"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 bg-slate-800 hover:bg-slate-700 rounded-lg transition-colors"

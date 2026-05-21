@@ -27,25 +27,29 @@ export function Skills() {
   return (
     <section id="skills" className="py-20 bg-slate-50">
       <div className="max-w-6xl mx-auto px-6">
-        <h2 className="mb-4 text-center">Technical Skills</h2>
+        <h2 className="mb-8 text-center text-3xl font-bold">
+          Technical Skills
+        </h2>
         <p className="mb-12 text-center text-slate-600 max-w-2xl mx-auto">
-          Technologies and tools I've learned and worked with during my studies and projects
+          Technologies and tools I've learned and worked with during my studies
+          and projects
         </p>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {skillCategories.map((category) => {
             const Icon = category.icon;
             return (
-              <div 
+              <div
                 key={category.title}
-                className="p-6 bg-white border border-slate-200 rounded-lg hover:border-blue-400 hover:shadow-lg transition-all"
-              >
+                className="p-6 bg-white border border-slate-200 rounded-lg hover:border-blue-400 hover:shadow-lg transition-all">
                 <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
                   <Icon className="w-6 h-6 text-blue-500" />
                 </div>
                 <h3 className="mb-4">{category.title}</h3>
                 <ul className="space-y-2">
                   {category.skills.map((skill) => (
-                    <li key={skill} className="text-slate-600 flex items-center gap-2">
+                    <li
+                      key={skill}
+                      className="text-slate-600 flex items-center gap-2">
                       <span className="w-1.5 h-1.5 bg-blue-500 rounded-full" />
                       {skill}
                     </li>

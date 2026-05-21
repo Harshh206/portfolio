@@ -103,13 +103,13 @@ export function ProjectDrawer({ project, isOpen, onClose, direction = 'right' }:
           </div>
 
           <div className="flex gap-3">
-            <a 
+            {/* <a 
               href={project.liveUrl}
               className="flex-1 px-4 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors flex items-center justify-center gap-2"
             >
               <ExternalLink className="w-4 h-4" />
               View Live
-            </a>
+            </a> */}
             <a 
               href={project.githubUrl}
               className="flex-1 px-4 py-3 border border-slate-300 rounded-lg hover:bg-slate-50 transition-colors flex items-center justify-center gap-2"

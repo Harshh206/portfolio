@@ -9,11 +9,11 @@ export function About({ onOpenEducation }: AboutProps) {
   return (
     <section id="about" className="py-16 bg-white">
       <div className="max-w-6xl mx-auto px-6">
-        <h2 className="mb-12 text-center text-4xl font-bold">About Me</h2>
+        <h2 className="mb-12 text-center text-3xl font-bold">About Me</h2>
         <div className="grid md:grid-cols-5 gap-10 items-center">
           <div className="flex justify-center md:col-span-2">
             <ImageWithFallback
-              src="src\assets\man-8626637_1280.png"
+              src="src\assets\image\profile.png"
               alt="Profile"
               className="rounded-lg shadow-lg w-full h-auto"
             />
