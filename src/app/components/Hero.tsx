@@ -11,13 +11,18 @@ export function Hero() {
           <span className="text-blue-400 tracking-wide">Harsh Patel</span>
         </h1>
         <h2 className="mb-6 text-neutral-200 text-xl font-normal tracking-wide text-muted-foreground md:text-2xl tracking-wide">
-          Graduate | Aspiring AI/ML Engineer
+          Aspiring AI/ML Engineer
         </h2>
-        <p className="mb-8 text-slate-400 max-w-3xl mx-auto text-base leading-7 text-foreground/70 tracking-wide ">
-          Recent graduate passionate about building
-          innovative, AI-driven web solutions. Eager to apply my skills in
-          Python, generative AI frameworks, and intelligent application
-          development to create meaningful and impactful digital experiences.
+        {/* <p className="mb-8 text-slate-400 max-w-3xl mx-auto text-base leading-7 text-foreground/70 tracking-wide ">
+          Recent graduate passionate about building innovative, AI-driven web
+          solutions. Eager to apply my skills in Python, generative AI
+          frameworks, intelligent application development and and modern web
+          technologies to create meaningful and impactful digital experiences.
+        </p> */}
+        <p className="mb-8 text-slate-400 max-w-2xl mx-auto text-base leading-7 text-foreground/70 tracking-wide ">
+          Passionate about building innovative, AI-driven web solutions.
+          Eager to create meaningful digital experiences with Python, GenAI, and
+          modern web technologies.
         </p>
         <div className="flex flex-col justify-center gap-4 sm:flex-row">
           <a
