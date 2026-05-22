@@ -2,13 +2,13 @@ import { Mail, Github, Linkedin, FileText } from 'lucide-react';
 
 export function Contact() {
   return (
-    <section id="contact" className="py-20 bg-slate-900 text-white">
+    <section
+      id="contact"
+      className="py-8 md:py-10 lg:py-16 bg-slate-900 text-white">
       <div className="max-w-4xl mx-auto px-6 text-center">
         <h2 className="mb-8 text-center text-2xl font-bold">Let's Connect</h2>
-        <p className="mb-8 text-slate-400 max-w-2xl mx-auto">
-          I'm actively looking for entry-level opportunities where I can
-          contribute and grow as a developer. Feel free to reach out if you'd
-          like to discuss potential opportunities or just connect!
+        <p className="mb-8 text-slate-400 max-w-3xl mx-auto">
+          Let's connect! Feel free to reach out—I'm always open to networking and meeting new people in tech.
         </p>
         <div className="flex justify-center gap-4 mb-8 flex-wrap">
           <a
@@ -17,12 +17,12 @@ export function Contact() {
             <Mail className="w-5 h-5" />
             Email Me
           </a>
-          <a
+          {/* <a
             href="#"
             className="px-6 py-3 border border-slate-600 hover:border-slate-400 rounded-lg transition-colors flex items-center gap-2">
             <FileText className="w-5 h-5" />
             Download Resume
-          </a>
+          </a> */}
         </div>
         <div className="flex justify-center gap-6">
           <a

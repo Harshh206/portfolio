@@ -20,8 +20,8 @@ export function Hero() {
           technologies to create meaningful and impactful digital experiences.
         </p> */}
         <p className="mb-8 text-slate-400 max-w-2xl mx-auto text-base leading-7 text-foreground/70 tracking-wide ">
-          Passionate about building innovative, AI-driven web solutions.
-          Eager to create meaningful digital experiences with Python, GenAI, and
+          Passionate about building innovative, AI-driven web solutions. Eager
+          to create meaningful digital experiences with Python, GenAI, and
           modern web technologies.
         </p>
         <div className="flex flex-col justify-center gap-4 sm:flex-row">
@@ -32,8 +32,8 @@ export function Hero() {
           </a>
           <a
             href="#contact"
-            className="inline-flex items-center justify-center rounded-full text-blue-500 px-6 py-3 border border-slate-600 bg-transparent  transition-all duration-200 hover:scale-105 hover:bg-[#4a9eff25] hover:text-white">
-            Get In Touch
+            className="inline-flex items-center justify-center rounded-full text-blue-500 px-6 py-3 border border-slate-600 bg-transparent  transition-all duration-200 hover:scale-105 hover:bg-[#E9E4F0] hover:text-black">
+            Let's connect
           </a>
         </div>
       </div>

@@ -28,24 +28,37 @@ export function EducationDrawer({ open, onOpenChange }: EducationDrawerProps) {
                 Education
               </h3>
               <div className="bg-slate-50 p-6 rounded-lg border border-slate-200">
-                <h4 className="mb-2">
-                  Bachelor of Technology in Computer Science
-                </h4>
+                <h4 className="mb-2">Bachelor of Technology (Honours)</h4>
+                <h5 className="mb-1 text-slate-600 italic">
+                  Computer Science Engineering (Artificial Intelligence)
+                </h5>
                 <p className="text-slate-600 mb-2">
                   Chhattisgarh Swami Vivekanand Technical University • 2021 -
                   2025
                 </p>
-                <p className="text-slate-600 mb-3">CGPA: 7.1/10</p>
+                <p className="text-slate-600 mb-3 italic">CGPA: 7.1/10</p>
                 <div className="mb-3">
                   <p className="font-semibold mb-2">Relevant Coursework:</p>
                   <ul className="grid md:grid-cols-2 gap-2 text-slate-600">
                     <li className="flex items-center gap-2">
                       <span className="w-1.5 h-1.5 bg-blue-500 rounded-full" />
-                      Data Structures & Algorithms
+                      Artificial Intelligence & Deep Learning
                     </li>
                     <li className="flex items-center gap-2">
                       <span className="w-1.5 h-1.5 bg-blue-500 rounded-full" />
-                      Web Development
+                      Business Intelligence and Analytics
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <span className="w-1.5 h-1.5 bg-blue-500 rounded-full" />
+                      Intelligent Systems & Robotics{" "}
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <span className="w-1.5 h-1.5 bg-blue-500 rounded-full" />R
+                      for Data Science
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <span className="w-1.5 h-1.5 bg-blue-500 rounded-full" />
+                      Data Structures & Algorithms
                     </li>
                     <li className="flex items-center gap-2">
                       <span className="w-1.5 h-1.5 bg-blue-500 rounded-full" />
@@ -53,11 +66,19 @@ export function EducationDrawer({ open, onOpenChange }: EducationDrawerProps) {
                     </li>
                     <li className="flex items-center gap-2">
                       <span className="w-1.5 h-1.5 bg-blue-500 rounded-full" />
-                      Operating Systems
+                      Software Engineering
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <span className="w-1.5 h-1.5 bg-blue-500 rounded-full" />
+                      Operating Systems & Computer Architecture
                     </li>
                     <li className="flex items-center gap-2">
                       <span className="w-1.5 h-1.5 bg-blue-500 rounded-full" />
                       Object-Oriented Programming
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <span className="w-1.5 h-1.5 bg-blue-500 rounded-full" />
+                      Cryptography and Network Security
                     </li>
                     <li className="flex items-center gap-2">
                       <span className="w-1.5 h-1.5 bg-blue-500 rounded-full" />
@@ -75,47 +96,33 @@ export function EducationDrawer({ open, onOpenChange }: EducationDrawerProps) {
               </h3>
               <div className="grid md:grid-cols-2 gap-4">
                 <div className="bg-slate-50 p-4 rounded-lg border border-slate-200">
-                  <h4 className="mb-1">Full Stack Web Development</h4>
-                  <p className="text-slate-600 mb-2">Udemy • 2024</p>
+                  <h4 className="mb-1">IBM Generative AI Engineering Professional</h4>
+                  <p className="text-slate-600 mb-2">Coursera • 2026</p>
                   <span className="inline-block px-2 py-1 bg-green-100 text-green-700 rounded text-sm">
                     Completed
                   </span>
                 </div>
                 <div className="bg-slate-50 p-4 rounded-lg border border-slate-200">
                   <h4 className="mb-1">
-                    JavaScript Algorithms and Data Structures
+                    AI Vector Search Certified Professiona
                   </h4>
-                  <p className="text-slate-600 mb-2">freeCodeCamp • 2023</p>
+                  <p className="text-slate-600 mb-2">Oracle • 2025</p>
                   <span className="inline-block px-2 py-1 bg-green-100 text-green-700 rounded text-sm">
                     Completed
                   </span>
                 </div>
                 <div className="bg-slate-50 p-4 rounded-lg border border-slate-200">
-                  <h4 className="mb-1">React - The Complete Guide</h4>
-                  <p className="text-slate-600 mb-2">Coursera • 2024</p>
+                  <h4 className="mb-1">
+                    High Performance Scientific Computing
+                  </h4>
+                  <p className="text-slate-600 mb-2">NPTEL • 2025</p>
                   <span className="inline-block px-2 py-1 bg-green-100 text-green-700 rounded text-sm">
                     Completed
                   </span>
                 </div>
                 <div className="bg-slate-50 p-4 rounded-lg border border-slate-200">
-                  <h4 className="mb-1">Git & GitHub Essentials</h4>
-                  <p className="text-slate-600 mb-2">
-                    LinkedIn Learning • 2023
-                  </p>
-                  <span className="inline-block px-2 py-1 bg-green-100 text-green-700 rounded text-sm">
-                    Completed
-                  </span>
-                </div>
-                <div className="bg-slate-50 p-4 rounded-lg border border-slate-200">
-                  <h4 className="mb-1">Responsive Web Design</h4>
-                  <p className="text-slate-600 mb-2">freeCodeCamp • 2023</p>
-                  <span className="inline-block px-2 py-1 bg-green-100 text-green-700 rounded text-sm">
-                    Completed
-                  </span>
-                </div>
-                <div className="bg-slate-50 p-4 rounded-lg border border-slate-200">
-                  <h4 className="mb-1">Node.js Backend Basics</h4>
-                  <p className="text-slate-600 mb-2">Udemy • 2024</p>
+                  <h4 className="mb-1">Management Information System</h4>
+                  <p className="text-slate-600 mb-2">NPTEL • 2024</p>
                   <span className="inline-block px-2 py-1 bg-green-100 text-green-700 rounded text-sm">
                     Completed
                   </span>

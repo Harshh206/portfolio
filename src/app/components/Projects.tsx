@@ -1,7 +1,7 @@
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import { useState } from 'react';
 import { ProjectDrawer } from './ProjectDrawer';
-import { projects } from './projects_list';
+import { projects } from '../../assets/data/projects_list';
 
 export function Projects() {
   const [selectedProject, setSelectedProject] = useState<typeof projects[0] | null>(null);
@@ -22,7 +22,7 @@ export function Projects() {
 
   return (
     <>
-      <section id="projects" className="py-16 bg-white">
+      <section id="projects" className="py-8 md:py-10 lg:py-16bg-white">
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="mb-12 text-center text-3xl font-bold">My Projects</h2>
           <p className="mb-12 text-center text-slate-600 max-w-2xl mx-auto">
@@ -35,28 +35,9 @@ export function Projects() {
                 key={project.id}
                 className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all group border border-slate-200 cursor-pointer"
                 onClick={() => handleProjectClick(project, index)}>
-                {/* <div className="relative overflow-hidden">
-                  <ImageWithFallback
-                    src={project.image}
-                    alt={project.title}
-                    className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
-                  />
-                  <div className="absolute top-3 right-3">
-                    <span className="px-3 py-1 bg-blue-500 text-white rounded-full text-sm">
-                      {project.type}
-                    </span>
-                  </div>
-                  <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                    <span className="text-white px-4 py-2 border-2 border-white rounded-lg">
-                      View Details
-                    </span>
-                  </div>
-                </div> */}
                 <div className="p-6">
                   <h3 className="mb-2">{project.title}</h3>
-                  <p className="mb-4 text-slate-600 line-clamp-2">
-                    {project.description}
-                  </p>
+                  <p className="mb-4 text-slate-600">{project.description}</p>
                   <div className="flex flex-wrap gap-2">
                     {project.tags.slice(0, 3).map((tag) => (
                       <span
