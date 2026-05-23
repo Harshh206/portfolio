@@ -13,7 +13,7 @@ export function About({ onOpenEducation }: AboutProps) {
         <div className="grid md:grid-cols-5 gap-10 items-center">
           <div className="flex justify-center md:col-span-2">
             <ImageWithFallback
-              src="src\assets\image\profile.png"
+              src="src/assets/image/profile.png"
               alt="Profile"
               className="rounded-lg shadow-lg w-full h-auto"
             />
