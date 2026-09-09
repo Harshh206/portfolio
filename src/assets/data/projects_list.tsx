@@ -13,11 +13,11 @@
 const projects = [
   {
     id: 1,
-    title: "RAG-based Question Answering System",
+    title: "RAG-Pipeline with Hybrid search and Local LLMs",
     description:
-      "A RAG based system that combines a ChromaDB (vector database) with a Local LLM to provide accurate and contextually relevant answers to user queries.",
+      "Hybrid search RAG pipeline for context-aware question answering. Implemented hybrid retrieval (BM25 + Vector) and Reciprocal Rank Fusion (RRF), refined via cross-encoder reranking for enhanced precision.",
     longDescription:
-      "This RAG QA Bot enables context-aware question answering on private documents without sending data to external APIs. The system follows a complete RAG workflow: documents (PDF, TXT, Excel, and DOCX) are loaded and split into semantic chunks, then converted into vector embeddings using a local embedding model (qwen3-embedding:0.6b). These embeddings are stored persistently in ChromaDB. When a user asks a question, the system retrieves the most relevant document chunks, constructs a contextual prompt, and generates accurate answers using a local LLM (llama3:8b). The entire pipeline is exposed through an intuitive Gradio web interface, ensuring total data privacy by running entirely locally.",
+      "Developed a fully local RAG system using Python, LangChain, Ollama, and ChromaDB for document-based Q&A. Implemented a hybrid retrieval pipeline combining BM25 keyword search with dense vector search and Reciprocal Rank Fusion (RRF), refined via cross-encoder reranking for enhanced precision. Built a multi-format ingestion engine supporting multiple document types (PDF, DOCX, PPTX, HTML, etc.) with markdown-aware chunking to preserve structural context. Created an interactive Streamlit web application featuring document upload, source citations, and adjustable settings, alongside a complete CLI for flexible ingestion and querying.",
     image:
       "https://plus.unsplash.com/premium_photo-1677094310899-02303289cadf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGNoYXRib3R8ZW58MHx8MHx8fDA%3D",
     tags: ["Python", "LangChain", "OLlama", "ChromaDB", "Gradio"],
