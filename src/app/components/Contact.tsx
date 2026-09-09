@@ -37,7 +37,7 @@ export function Contact() {
             href="https://www.linkedin.com/in/harshp04"
             target="_blank"
             rel="noopener noreferrer"
-            className="p-3 bg-slate-800 hover:bg-slate-700 rounded-lg transition-colors"
+            className="p-3 bg-slate-800 hover:bg-slate-700 rounded-full transition-colors"
             aria-label="LinkedIn">
             <Linkedin className="w-6 h-6" />
           </a>
