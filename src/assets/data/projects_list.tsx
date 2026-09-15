@@ -26,7 +26,7 @@ const projects = [
     type: "Personal Project",
     duration: "",
     features: [
-      "Hybrid Search:** Combines BM25 keyword search and semantic vector search.",
+      "Combines BM25 keyword search and semantic vector search.",
       "Uses a cross-encoder to improve document relevance.",
       "Processes PDF, DOCX, PPTX, XLSX, HTML, TXT, CSV, JSON, etc.",
       "Uses Ollama for private, local embeddings and LLM inference.",
