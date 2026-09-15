@@ -22,18 +22,15 @@ const projects = [
       "https://plus.unsplash.com/premium_photo-1677094310899-02303289cadf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGNoYXRib3R8ZW58MHx8MHx8fDA%3D",
     tags: ["Python", "LangChain", "OLlama", "ChromaDB", "Gradio"],
     liveUrl: "#",
-    githubUrl:
-      "https://github.com/Harshh206/RAG-QA-Bot-with-LangChain-LocalLLMs.git",
+    githubUrl: "https://github.com/Harshh206/RAG-Pipeline-with-Hybrid-Search",
     type: "Personal Project",
-    duration: "1 month",
+    duration: "",
     features: [
-      "Offline local LLM support using Ollama for complete privacy",
-      "Multi-format ingestion supporting PDF, TXT, Excel, and DOCX files",
-      "Persistent ChromaDB vector storage for embeddings reuse without re-ingestion",
-      "RAG-based retrieval for context-aware accurate answers",
-      "Modular architecture with clean separation of chains, embeddings, ingestion, and vectorstore",
-      "User-friendly chat interface for document upload and Q&A",
-      "Comprehensive unit tests for loaders, chunkers, LLM, and QA chain",
+      "Hybrid Search:** Combines BM25 keyword search and semantic vector search.",
+      "Uses a cross-encoder to improve document relevance.",
+      "Processes PDF, DOCX, PPTX, XLSX, HTML, TXT, CSV, JSON, etc.",
+      "Uses Ollama for private, local embeddings and LLM inference.",
+      "Provides a Streamlit interface with source citations for answers.",
     ],
   },
 
@@ -58,7 +55,7 @@ const projects = [
     githubUrl:
       "https://github.com/Harshh206/Deepfake-Detection-using-DeepLearning.git",
     type: "Academic Project",
-    duration: "3 months",
+    duration: "",
     features: [
       "Hybrid CNN + TCN architecture with stochastic depth",
       "Real-time video stream detection via webcam",
