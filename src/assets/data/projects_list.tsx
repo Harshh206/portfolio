@@ -20,7 +20,7 @@ const projects = [
       "Developed a fully local RAG system using Python, LangChain, Ollama, and ChromaDB for document-based Q&A. Implemented a hybrid retrieval pipeline combining BM25 keyword search with dense vector search and Reciprocal Rank Fusion (RRF), refined via cross-encoder reranking for enhanced precision. Built a multi-format ingestion engine supporting multiple document types (PDF, DOCX, PPTX, HTML, etc.) with markdown-aware chunking to preserve structural context. Created an interactive Streamlit web application featuring document upload, source citations, and adjustable settings, alongside a complete CLI for flexible ingestion and querying.",
     image:
       "https://plus.unsplash.com/premium_photo-1677094310899-02303289cadf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGNoYXRib3R8ZW58MHx8MHx8fDA%3D",
-    tags: ["Python", "LangChain", "OLlama", "ChromaDB", "Gradio"],
+    tags: ["Python", "LangChain", "OLlama", "ChromaDB", "Streamlit"],
     liveUrl: "#",
     githubUrl: "https://github.com/Harshh206/RAG-Pipeline-with-Hybrid-Search",
     type: "Personal Project",
